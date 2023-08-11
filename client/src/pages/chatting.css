@@ -1,0 +1,91 @@
+.chat-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-partner {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.partner-name {
+  margin-left: 10px;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.chat-message {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.message-content {
+  margin-right: 10px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.message-time {
+  color: gray;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.photo-button,
+.like-button {
+  margin-right: 10px;
+}
+
+.text-input {
+  flex: 1;
+  padding: 5px;
+}
+
+/* .message-content.me {
+  background-color: #e2f1fc;
+  align-self: flex-end;
+} */
+
+/* .chat-message.me {
+  justify-content: flex-end;
+}
+
+.chat-message.me .message-content {
+  text-align: right;
+} */
+
+.chat-message.me {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  
+}
+
+.chat-message.me .message-content {
+  margin-left: auto;
+  text-align: right;
+}
+
+.chat-message.me .message-time {
+  margin-left: 10px;
+}

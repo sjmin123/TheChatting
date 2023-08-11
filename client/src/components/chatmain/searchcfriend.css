@@ -1,0 +1,29 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 100%; /* 창의 왼쪽에서 오른쪽으로 꽉 차도록 설정 */
+  }
+  
+  .search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 4px;
+    flex-grow: 1;
+  }
+  
+  .search-button {
+    padding: 8px 16px;
+    background-color: #15b269;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #0c7248;
+  }
+  
